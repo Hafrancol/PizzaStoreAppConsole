@@ -1,0 +1,19 @@
+{
+  "name": "pizzastoreappconsole",
+  "version": "1.0.0",
+  "description": "the app is to calculate the products",
+  "main": "index.js",
+  "scripts": {
+    "exec": "node ./build/index.js",
+    "tsc": "cd ./src && tsc --watch"
+  },
+  "author": "Alejandro Franco",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
